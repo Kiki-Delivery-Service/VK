@@ -1,426 +1,399 @@
-body{
-background: #edeef0;
+body {
+    background: #edeef0;
 }
-header{
-background: #4a76a8;
-height: 42px;
-width: 100%;
-margin-top: -8px;
-margin-left: -8px;
-padding-right: 16px;
+header {
+    background: #4a76a8;
+    height: 42px;
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-right: 16px;
 }
-.header-container{
-display: flex;
-width: 1124px;
-height: 100%;
-margin: 0 auto;
+.header-container {
+    display: flex;
+    width: 1124px;
+    height: 100%;
+    margin: 0 auto;
 }
-.head-logo{
-padding-top: 11px;
-cursor: pointer;
+.head-logo {
+    padding-top: 11px;
+    cursor: pointer;
 }
-.finding-friends{ 
-padding-top: 7px;
-padding-left: 134px;
+.finding-friends { 
+    padding: 7px 0 0 134px;
 }
-.finding-friends-input{
-background: url(IMG/loupe.svg) no-repeat 9px 8px #224b7a;
-color: #86a1bf;
-padding: 6px 32px 8px 37px;
-border-radius: 50px;
-border: none;
-font-family: 'Roboto', sans-serif;
+.finding-friends-input {
+    background: url(IMG/loupe.svg) no-repeat 9px 8px #224b7a;
+    color: #86a1bf;
+    padding: 6px 32px 8px 37px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
 }
-.finding-friends-input:focus{
-background-color: #ffffff;
+.finding-friends-input:focus {
+    background-color: #ffffff;
 }
-.notify{
-padding-left: 30px;
-padding-top: 10px;
+.notify {
+    padding: 10px 0 0 30px;
 }
-.notify:hover{
-padding-right: 15px;
-padding-left: 15px;
-margin-left: 15px;
-margin-right: -15px;
-background-color: #41699a;
-cursor: pointer;
+.notify:hover {
+    padding: 10px 15px 0 15px;
+    margin: 0 -15px 0 15px;
+    background-color: #41699a;
+    cursor: pointer;
 }
-.audio{
-padding-top: 8px;
-padding-bottom: 8px;
-padding-left: 15px;
-padding-right: 15px;
+.audio {
+    padding: 8px 15px 8px 15px;
 }
-.music-button{
-background-color: transparent;
-padding-left: 15px;
+.music-button {
+    background-color: transparent;
+    padding-left: 15px;
 }
-.audio:hover{
-background-color: #41699a;
-cursor: pointer;
+.audio:hover {
+    background-color: #41699a;
+    cursor: pointer;
 }
-.play-button{
-position: relative;
-right: 7px;
+.play-button {
+    position: relative;
+    right: 7px;
 }
-.square{
-position: absolute;
-left: 7px;
-top: 10px;
-width: 20px;
-height: 20px;
-background-color: #224b7a;
-border-radius: 3px;
+.square {
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #224b7a;
+    border-radius: 3px;
 }
-.rhombus{
-width: 0; 
-height: 0;
-border: 5px solid transparent;
-border-bottom-color: #224b7a;
-position: relative; 
-top: 10px;
-left: 3px;
+.rhombus {
+    width: 0; 
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom-color: #224b7a;
+    position: relative; 
+    top: 10px;
+    left: 3px;
 }
-.rhombus:after{
-content: "";
-width: 0;
-height: 0;
-position: absolute; 
-left: -5px; 
-top: 5px;
-border: 5px solid transparent;
-border-top-color: #224b7a;
+.rhombus:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute; 
+    left: -5px; 
+    top: 5px;
+    border: 5px solid transparent;
+    border-top-color: #224b7a;
 }
-.triangle{
-position: absolute;
-top: 15px;
-left: 14px;
-width: 0; 
-height: 0;
-border-top: 5px solid transparent;
-border-left: 8px solid #b4c8e0;
-border-bottom: 5px solid transparent;
+.triangle {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 0; 
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 8px solid #b4c8e0;
+    border-bottom: 5px solid transparent;
 }
-.name{
-color: #ffffff;
-padding-top: 13px;
-font-size: 12px;
-font-weight: 700;
-font-family: 'Roboto', sans-serif;
-padding-left: 10px;
+.name {
+    color: #ffffff;
+    padding-top: 13px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
 }
-.photo{
-padding-left: 14px;
-padding-top: 6px;
-padding-right: 25px;
+.photo {
+    padding: 6px 25px 0 14px;
 }
-.photo>img{
-border-radius: 50px;
-width: 30px;
-height: 30px;
+.photo>img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
-.arrow{
-position: absolute;
-cursor: pointer;
+.arrow {
+    position: absolute;
+    cursor: pointer;
 }
-.arrow:before{
-content: '';
-width: 6px;
-height: 1.5px;
-background: #8da8c8;
-position: absolute;
-top: 20px;
-transform: rotate(40deg);
-left: 124px;
+.arrow:before {
+    content: '';
+    width: 6px;
+    height: 1.5px;
+    background: #8da8c8;
+    position: absolute;
+    top: 20px;
+    transform: rotate(40deg);
+    left: 124px;
 }
-.arrow:after{
-content: '';
-width: 6px;
-height: 1.5px;
-background: #8da8c8;
-position: absolute;
-top: 20px;
-transform: rotate(-40deg);
-left: 128px;
-border-top: none;
+.arrow:after {
+    content: '';
+    width: 6px;
+    height: 1.5px;
+    background: #8da8c8;
+    position: absolute;
+    top: 20px;
+    transform: rotate(-40deg);
+    left: 128px;
+    border-top: none;
 }
-.proifile{
-background-color: transparent;
-padding-left: 435px;
+.proifile {
+    background-color: transparent;
+    padding-left: 435px;
 }
-section{
-display: flex;
+section {
+    display: flex;
 }
-section:hover{
-background-color: #41699a;
-cursor: pointer;
+section:hover {
+    background-color: #41699a;
+    cursor: pointer;
 }
-.page{
-display: flex;
-padding-top: 16px;
-width: 1124px;
-height: 100%;
-margin: 0 auto;
+.page {
+    display: flex;
+    padding-top: 16px;
+    width: 1124px;
+    height: 100%;
+    margin: 0 auto;
 }
-.menu{
-background-color: transparent;
+.menu {
+    background-color: transparent;
 }
-.menu-item>img{
-width: 30px;
-height: 30px;
-padding: 4px 10px 10px 10px;
-background-color: transparent;
+.menu-item>img {
+    width: 30px;
+    height: 30px;
+    padding: 4px 10px 10px;
+    background-color: transparent;
 }
-.menu-item{
-display: flex;
-font-family: 'Roboto', sans-serif;
-color: #224b7a;
-font-size: 12px;
-height: 35px;
-width: 170px;
+.menu-item {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #224b7a;
+    font-size: 12px;
+    height: 35px;
+    width: 170px;
 }
-.menu-item:hover{
-background-color: #dae2e5;
-cursor: pointer;
+.menu-item:hover {
+    background-color: #dae2e5;
+    cursor: pointer;
 }
-.border{
-border-bottom-width: 1px;
-border-bottom-style: solid;
-border-bottom-color: #d3d9de;
-width: 100px;
-margin-left: 50px;
+.border {
+    border-bottom: 1px solid #d3d9de;
+    width: 100px;
+    margin-left: 50px;
 }
-.ui-search-field{
-padding-left: 12px;
+.ui-search-field {
+    padding-left: 12px;
 }
-.search-form{
-margin-bottom: -51px;
+.search-form {
+    margin-bottom: -51px;
 }
-.ui-search{
-background: url(IMG/loupe.svg) no-repeat 16px 15px #ffffff;
-color: #86a1bf;
-padding: 14px 113px 16px 42px;
-border: 1px solid #d3d9de;
-font-family: 'Roboto', sans-serif;
+.ui-search {
+    background: url(IMG/loupe.svg) no-repeat 16px 15px #ffffff;
+    color: #86a1bf;
+    padding: 14px 113px 16px 42px;
+    border: 1px solid #d3d9de;
+    font-family: 'Roboto', sans-serif;
 }
-.star{
-position: relative;
-cursor: pointer;
-left: 231px;
-bottom: 34px;
+.star {
+    position: relative;
+    cursor: pointer;
+    left: 231px;
+    bottom: 34px;
 }
-.numeral{
-position: relative;
-font-family: 'Roboto', sans-serif;
-font-size: 12px;
-color: #86a1bf;
-left: 249px;
-bottom: 53px;
-cursor: pointer;
+.numeral {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #86a1bf;
+    left: 249px;
+    bottom: 53px;
+    cursor: pointer;
 }
-.cross{
-background: #d3d9de;
-height: 14px; 
-width: 2px;
-position: relative; 
-left: 293px;
-bottom: 68px;
+.cross {
+    background: #d3d9de;
+    height: 14px; 
+    width: 2px;
+    position: relative; 
+    left: 293px;
+    bottom: 68px;
 }
-.cross:after{
-content: "";
-height: 2px; 
-width: 14px;
-background: #d3d9de;
-position: absolute; 
-left: -6px; 
-top: 6px;
+.cross:after {
+    content: "";
+    height: 2px; 
+    width: 14px;
+    background: #d3d9de;
+    position: absolute; 
+    left: -6px; 
+    top: 6px;
 }
-.item-in-dialog{
-border: 1px solid #d3d9de;
-display: flex;
-background-color: #ffffff;
-cursor: pointer;
+.item-in-dialog {
+    border: 1px solid #d3d9de;
+    display: flex;
+    background-color: #ffffff;
+    cursor: pointer;
 }
-.interlocutor{
-padding-left: 15px;
-padding-top: 6px;
+.interlocutor {
+    padding-left: 15px;
+    padding-top: 6px;
 }
-.interlocutor>img{
-border-radius: 50px;
-width: 50px;
-height: 50px;
+.interlocutor>img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
-.display-block{
-display: block;
+.display-block {
+    display: block;
 }
-.interlocutor-dialog{
-font-size: 12px;
-font-weight: 500;
-font-family: 'Roboto', sans-serif;
-padding-top: 13px;
-padding-left: 8px;
+.interlocutor-dialog {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 13px;
+    padding-left: 8px;
 }
-.dialogue{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-padding-top: 10px;
-padding-left: 10px;
-color: #656565;
+.dialogue {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #656565;
 }
-.time{
-font-family: 'Roboto', sans-serif;
-font-size: 12px;
-padding-left: 60px;
-padding-top: 11px;
-color: #656565;
+.time {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 11px 0 0 60px;
+    color: #656565;
 }
-.customization{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-color: #656565;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 15px;
-background: url(IMG/customization.png) no-repeat 282px 15px #ffffff;
-cursor: pointer;
+.customization {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #656565;
+    padding: 15px 15px;
+    background: url(IMG/customization.png) no-repeat 282px 15px #ffffff;
+    cursor: pointer;
 }
-.dialogue-history{
-display: block;
+.dialogue-history {
+    display: block;
 }
-.page-name{
-border: 1px solid #d3d9de;
-display: flex;
-background-color: #ffffff;
-width: 589px;
-height: 46px;
+.page-name {
+    border: 1px solid #d3d9de;
+    display: flex;
+    background-color: #ffffff;
+    width: 589px;
+    height: 46px;
 }
 .interlocutor-name {
-padding-top: 14px;
-padding-left: 17px;
-font-size: 13px;
-font-weight: 500;
-font-family: 'Roboto', sans-serif;
-cursor: pointer;
+    padding: 14px 0 0 17px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
-.online{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-color: #656565;
-padding-top: 14px;
-padding-left: 17px;
+.online {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #656565;
+    padding-top: 14px;
+    padding-left: 17px;
 }
-.mobile{
-padding-top: 10px;
-padding-left: 9px;
+.mobile {
+    padding: 10px 0 0 9px;
 }
-.loupe{
-padding-top: 13px;
-padding-left: 138px;
+.loupe {
+    padding: 13px 0 0 138px;
 }
-.points{
-padding-top: 11px;
-padding-left: 17px;
+.points {
+    padding: 11px 0 0 17px;
 }
-.dialog{
-border: 1px solid #d3d9de;
-background-color: #ffffff;
-overflow: hidden;
-height: 611px;
-cursor: pointer;
+.dialog {
+    border: 1px solid #d3d9de;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 611px;
+    cursor: pointer;
 }
-.display-flex{
-display: flex;
+.display-flex {
+    display: flex;
 }
-.first-name{
-color: #2a5894;
-font-size: 12px;
-font-weight: 700;
-font-family: 'Roboto', sans-serif;
-padding-top: 20px;
-padding-left: 20px;
+.first-name {
+    color: #2a5894;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0 0 20px;
 }
-.time-user{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-color: #656565;
-padding-top: 20px;
-padding-left: 10px;
+.time-user {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #656565;
+    padding: 20px 0 0 10px;
 }
-.user-photo{
-padding-left: 56px;
-padding-top: 10px;
+.user-photo {
+    padding: 10px 0 0 56px;
 }
-.user-photo>img{
-border-radius: 50px;
-width: 40px;
-height: 40px;
+.user-photo>img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
-.text{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-padding-top: 10px;
-padding-left: 20px;
-width: 415px;
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 10px 0 0 20px;
+    width: 415px;
 }
-.time-dialog{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-padding-top: 14px;
-padding-left: 270px;
-color: #656565;
+.time-dialog {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 14px 0 0 270px;
+    color: #656565;
 }
-.document{
-padding-top: 10px;
-padding-left: 20px;
+.document {
+    padding: 10px 0 0 20px;
 }
-.file-name{
-color: #2a5894;
-font-size: 13px;
-font-weight: 500;
-font-family: 'Roboto', sans-serif;
-padding-top: 9px;
-padding-left: 10px;
+.file-name {
+    color: #2a5894;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 9px 0 0 10px;
 }
-.kilobyte{
-font-family: 'Roboto', sans-serif;
-font-size: 13px;
-color: #656565;
-padding-top: 2px;
-padding-left: 10px;
+.kilobyte {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #656565;
+    padding: 2px 0 0 10px;
 }
-.border-radius{
-padding-left: 56px;
-padding-top: 10px;
+.border-radius {
+    padding: 10px 0 0 56px;
 }
-.border-radius>img{
-border-radius: 50px;
-width: 40px;
-height: 40px;
+.border-radius>img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
-.input-area{
-border: 1px solid #d3d9de;
-display: flex;
-background-color: #ffffff;
-cursor: pointer;
-width: 589px;
-height: 61px;
+.input-area {
+    border: 1px solid #d3d9de;
+    display: flex;
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 589px;
+    height: 61px;
 }
-.message{
-width: 383px;
-height: 17px;
-padding: 9px 74px 10px 13px;
-border: 1px solid #d3d9de;
-border-radius: 6px;
-margin-top: 10px;
+.message {
+    width: 383px;
+    height: 17px;
+    padding: 9px 74px 10px 13px;
+    border: 1px solid #d3d9de;
+    border-radius: 6px;
+    margin-top: 10px;
 }
-.icon{
-padding: 20px 16px 20px 15px;
+.icon {
+    padding: 20px 16px 20px 15px;
 }
-.icon-chat{
-position: relative;
-padding-left: 10px;
-right: 135px;
-top: 17px;
+.icon-chat {
+    position: relative;
+    padding-left: 10px;
+    right: 135px;
+    top: 17px;
 }
 
